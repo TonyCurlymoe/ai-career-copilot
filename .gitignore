@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Logs and generated data
+logs/*.log
+vector_store/*
+!vector_store/.gitkeep
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
